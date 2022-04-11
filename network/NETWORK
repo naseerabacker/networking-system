@@ -1,0 +1,146 @@
+$ echo an
+an
+$ cat >f1
+s
+d
+f
+g
+$ tac f1
+g
+f
+d
+s
+
+
+
+$ cat>f3
+adna
+absha
+jamm
+katt
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat ab??
+cat: 'ab??': No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat f3
+adna
+absha
+jamm
+katt
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat f3?
+cat: 'f3?': No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat f?
+s
+d
+f
+g
+adna
+absha
+jamm
+katt
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat>matt
+ashf
+ghsfg
+fjdasksb@ksb-ThinkCentre-Edge72:~/naseeras2$ $ cat ab??
+$: command not found
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ $ cat ab??
+$: command not found
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat ab??
+cat: 'ab??': No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat>abnm
+sdas
+sdsa
+sdsd
+83e8ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat ab??
+sdas
+sdsa
+sdsd
+83e8ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat ?ab*
+cat: '?ab*': No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat cabnaaaaa
+cat: cabnaaaaa: No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat> cabnaaaaa
+sgd
+asdyfha
+sdg
+sdakksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cat ?ab*
+sgd
+asdyfha
+sdg
+sdakksb@ksb-ThinkCentre-Edge72:~/naseeras2$ ~
+
+
+
+
+
+
+
+
+
+
+day 2
+
+
+
+
+ksb@ksb-ThinkCentre-Edge72:~/naseeras2$ cd
+ksb@ksb-ThinkCentre-Edge72:~$ pwd
+/home/ksb
+ksb@ksb-ThinkCentre-Edge72:~$ mkdir naseeras2
+mkdir: cannot create directory ‘naseeras2’: File exists
+ksb@ksb-ThinkCentre-Edge72:~$ mkdir naseera17
+ksb@ksb-ThinkCentre-Edge72:~$ cat abnm
+cat: abnm: No such file or directory
+ 
+
+ksb@ksb-ThinkCentre-Edge72:~$ cat>abnm
+$ ls naseeras2
+ abnm        Cube.class   f1   First.java   java   network
+ cabnaaaaa   Cube.java    f3   float.java  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ matt  'result dbms'
+
+
+
+
+
+
+
+
+
+$ cat f1
+iam naseera
+haii hello
+ksb@ksb-ThinkCentre-Edge72:~$ cat f3
+iam naseera
+haii hello
+iam naseera
+haii hello
+ksb@ksb-ThinkCentre-Edge72:~$ cat matt
+cat: matt: No such file or directory
+ksb@ksb-ThinkCentre-Edge72:~$ cat abnm
+ksb@ksb-ThinkCentre-Edge72:~$ cp f1 f3
+ksb@ksb-ThinkCentre-Edge72:~$ cat f3
+iam naseera
+haii hello
+ksb@ksb-ThinkCentre-Edge72:~$ cat f1
+iam naseera
+haii hello
+
+mv f1 cab
+ksb@ksb-ThinkCentre-Edge72:~$ cat cab
+iam naseera
+haii hello
+
+
+
