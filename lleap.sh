@@ -1,3 +1,5 @@
+# Shell script to test whether the given year is a leap year or not#
+
 if [ $# -gt 1 ]
 then
   echo "syntax is <$0> [<years>]"
