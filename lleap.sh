@@ -19,14 +19,13 @@ else
   echo " $yr is not leap year"
 fi
 
-
-/*
+<<com
 
 
 $ sh lleap.sh 2021
  2021 is not leap year
 
-*/
+com
 
 
 
