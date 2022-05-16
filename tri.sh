@@ -1,3 +1,5 @@
+# Shell script to read 3 numbers and test whether they can be sides of a triangle#
+
 echo "enter  side A"
 read A
 echo "enter side B"
