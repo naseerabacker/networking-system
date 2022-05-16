@@ -1,4 +1,4 @@
-/* Shell script to display message “Good morning”,”Good afternoon”,”Good evening” and “Good night” according to system time */
+# Shell script to display message “Good morning”,”Good afternoon”,”Good evening” and “Good night” according to system time #
 
 h=$(date +"%H")
 if [ $h -gt 6 -a $h -le 12 ]
