@@ -30,6 +30,7 @@ ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ sh linux9.sh
  enter the file name:
 catt
 ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ 
+com
 
 com
 exec < $ter
