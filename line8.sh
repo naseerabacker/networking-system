@@ -33,7 +33,7 @@ cat
 ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ sh line8.sh 
 syntax error
  <line8.sh> <filename>
-com
+
 ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ 
 
 com
