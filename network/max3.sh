@@ -1,17 +1,73 @@
 
 #read 3 numbers and find largest
-echo "enter three numbers"
-read n1 n2 n3 
-if [ $n1 -gt $n2 ]
-then
-max=$n1
-else
-max=$n2
-fi
-if [ $n3 -gt $max ]
-then
-max=$n3
-fi
-echo "largest is $max"
 
-exit 
+
+
+
+echo "enter three numbers"
+read a b c
+
+if [ $a -gt $b ]
+then
+max=$a
+else
+max=$b
+fi
+if [ $c -gt $max ]
+then
+max=$c
+fi
+
+echo "$max"
+
+<<com
+ksb@ksb-ThinkCentre-Edge72:~/Desktop/naseeras2/network/script$ sh max3.sh
+enter three numbers
+3 5 6
+6
+com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
