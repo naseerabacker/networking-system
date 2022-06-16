@@ -43,11 +43,13 @@ echo "total occurrences word $word is $j"
 rm grp
 
 <<com
-ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ sh count.sh abnm
+ksb@ksb-ThinkCentre-Edge72:~/Desktop/net script$ sh count.sh lleap.sh prime.sh
 enter a word
-sat
-occurrences of word sat in abnm is 1
-total occurrences word sat is 1
+echo
+occurrences of word echo in lleap.sh is 3
+occurrences of word echo in prime.sh is 3
+total occurrences word echo is 6
+
 com
 
 
